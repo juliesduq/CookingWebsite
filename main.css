@@ -7,10 +7,14 @@
 /*Nav*/
 nav {
   display: inline;
-  background: Blue;
+  background-color: rgb(0,255,255);
+  border: black 2px;
+  font-family: fantasy;
 }
 
 nav ul {
   list-style-type: none;
 	float: left;
+  width: inherit;
+	height: inherit;
 }
