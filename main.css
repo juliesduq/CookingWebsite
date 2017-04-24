@@ -6,5 +6,11 @@
 
 /*Nav*/
 nav {
-    display: inline;
+  display: inline;
+  background: Blue;
+}
+
+nav ul {
+  list-style-type: none;
+	float: left;
 }
