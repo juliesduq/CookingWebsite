@@ -1,15 +1,24 @@
 /*General CSS*/
+body, h1, h2, h3, h4, p, ul, li, ol {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: inherit;
+	font-style: inherit;
+}
 
 
 /*Header*/
-
+header {
+  object-position: center;
+}
 
 /*Nav*/
 nav {
   display: inline;
   background-color: rgb(0,255,255);
   border: black 2px;
-  font-family: fantasy;
+  font-family: Helvetica;
 }
 
 nav ul {
