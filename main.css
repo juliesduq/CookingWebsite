@@ -11,6 +11,10 @@ body {
 	width: 100%;
 }
 
+.page {
+	width:80%
+}
+
 a {
   text-decoration: none;
 }
@@ -53,4 +57,24 @@ nav a:hover{
   font: 16/18px normal normal Helvetica;
   color: white;
   background-color: black;
+}
+
+
+/*Media Queries*/
+/*Ipad and tablet*/
+@media only screen and (max-width:1024px) {
+	max-width:1024px;
+	width:100%;
+}
+
+/*Smartphones big screens*/
+@media only screen and (max-width:767px) {
+	max-width:767px;
+	width:100%;
+}
+
+/*Smartphones small screens*/
+@media only screen and (max-width:480px) {
+	max-width:480px;
+	width:100%;
 }
